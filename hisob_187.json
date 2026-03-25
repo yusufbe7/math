@@ -1,6 +1,6 @@
 {
   "fan": "Matematik Analiz",
-  "jami": 187,
+  "jami": 240,
   "savollar": [
     {
       "id": 1,
@@ -2607,6 +2607,740 @@
         "x=-5: (-5+3)/(-5-8) = -2/(-13) = 2/13"
       ],
       "maslahat": "(x+5) umumiy omil"
+    },
+    {
+      "id": 188,
+      "savol": "Ushbu funksiyaning aniqlanish sohasini toping: y = 1/√(6x+24)",
+      "javob": "x > -4",
+      "qisqa": "Maxradda ildiz — qat'iy musbat",
+      "qadamlar": [
+        "1/√(6x+24) uchun 6x+24 > 0",
+        "6x > -24",
+        "x > -4",
+        "Aniqlanish sohasi: (-4, +∞)"
+      ],
+      "maslahat": "Maxradda √ bo'lsa: ichida qat'iy > 0"
+    },
+    {
+      "id": 189,
+      "savol": "Funksiyaning qavariqlik va botiqlik oraliqlarini toping: y = x³ - 15x² + 10x - 7",
+      "javob": "Qavariq: x < 5, Botiq: x > 5",
+      "qisqa": "Ikkinchi hosila",
+      "qadamlar": [
+        "y' = 3x² - 30x + 10",
+        "y'' = 6x - 30",
+        "y'' = 0: x = 5",
+        "x < 5: y'' < 0 → qavariq",
+        "x > 5: y'' > 0 → botiq"
+      ],
+      "maslahat": "y'' = 6x - 30 = 0 → x = 5"
+    },
+    {
+      "id": 190,
+      "savol": "Ushbu funksiyaning aniqlanish sohasini toping: y = 1/√(2x+18)",
+      "javob": "x > -9",
+      "qisqa": "Maxradda ildiz — qat'iy musbat",
+      "qadamlar": [
+        "2x+18 > 0",
+        "2x > -18",
+        "x > -9",
+        "Aniqlanish sohasi: (-9, +∞)"
+      ],
+      "maslahat": "Maxradda √: ichida qat'iy musbat"
+    },
+    {
+      "id": 191,
+      "savol": "Funksiyaning o'sish, kamayish oraliqlarini va ekstremum nuqtalarini toping: y = (1/3)x³ - 2x² - 5x - 2",
+      "javob": "Max: x=-1, Min: x=5",
+      "qisqa": "Hosila orqali ekstremum",
+      "qadamlar": [
+        "y' = x² - 4x - 5",
+        "y' = 0: (x-5)(x+1) = 0 → x=5, x=-1",
+        "x < -1: y' > 0 (o'sish)",
+        "-1 < x < 5: y' < 0 (kamayish)",
+        "x > 5: y' > 0 (o'sish)",
+        "x=-1 maksimum, x=5 minimum"
+      ],
+      "maslahat": "(1/3)x³ → x², -2x² → -4x, -5x → -5"
+    },
+    {
+      "id": 192,
+      "savol": "Funksiyaning uzilish nuqtalarini toping: f(x) = (7x+2)/(x²+10x+16)",
+      "javob": "x=-2 va x=-8",
+      "qisqa": "Maxraj = 0 nuqtalar",
+      "qadamlar": [
+        "Maxraj: x²+10x+16 = 0",
+        "D = 100-64 = 36, √D = 6",
+        "x = (-10±6)/2 → x₁=-2, x₂=-8",
+        "x=-2 da surat: -14+2=-12 ≠ 0 → uzilish",
+        "x=-8 da surat: -56+2=-54 ≠ 0 → uzilish"
+      ],
+      "maslahat": "x²+10x+16 = (x+2)(x+8)"
+    },
+    {
+      "id": 193,
+      "savol": "Funksiyaning hosilasini toping: y = -3x⁴ + 1/x² - 2 cos x",
+      "javob": "y' = -12x³ - 2/x³ + 2 sin x",
+      "qisqa": "Yig'indi hosila qoidasi",
+      "qadamlar": [
+        "(-3x⁴)' = -12x³",
+        "(1/x²)' = (x⁻²)' = -2x⁻³ = -2/x³",
+        "(-2 cos x)' = -2·(-sin x) = 2 sin x",
+        "y' = -12x³ - 2/x³ + 2 sin x"
+      ],
+      "maslahat": "(1/x²) = x⁻² → hosila: -2x⁻³ = -2/x³"
+    },
+    {
+      "id": 194,
+      "savol": "Limitni hisoblang: lim(x→-7) (x²+6x-7)/(x²+10x+21)",
+      "javob": "-4/3",
+      "qisqa": "0/0 — omillarga ajratish",
+      "qadamlar": [
+        "x=-7: surat: 49-42-7=0, maxraj: 49-70+21=0 → 0/0",
+        "Surat: x²+6x-7 = (x+7)(x-1)",
+        "Maxraj: x²+10x+21 = (x+7)(x+3)",
+        "Qisqartirish: (x-1)/(x+3)",
+        "x=-7: (-7-1)/(-7+3) = -8/(-4) = 2"
+      ],
+      "maslahat": "(x+7) umumiy omil"
+    },
+    {
+      "id": 195,
+      "savol": "Funksiyaning o'sish, kamayish oraliqlarini va ekstremum nuqtalarini toping: y = (1/3)x³ + 5x² + 9x + 1",
+      "javob": "Max: x=-9, Min: x=-1",
+      "qisqa": "Hosila orqali ekstremum",
+      "qadamlar": [
+        "y' = x² + 10x + 9",
+        "y' = 0: (x+1)(x+9) = 0 → x=-1, x=-9",
+        "x < -9: y' > 0 (o'sish)",
+        "-9 < x < -1: y' < 0 (kamayish)",
+        "x > -1: y' > 0 (o'sish)",
+        "x=-9 maksimum, x=-1 minimum"
+      ],
+      "maslahat": "(1/3)x³→x², 5x²→10x, 9x→9"
+    },
+    {
+      "id": 196,
+      "savol": "Funksiyaning uzilish nuqtalarini toping: f(x) = (5x+2)/(x²+11x+28)",
+      "javob": "x=-4 va x=-7",
+      "qisqa": "Maxraj = 0 nuqtalar",
+      "qadamlar": [
+        "Maxraj: x²+11x+28 = 0",
+        "D = 121-112 = 9, √D = 3",
+        "x = (-11±3)/2 → x₁=-4, x₂=-7",
+        "x=-4 da surat: -20+2=-18 ≠ 0",
+        "x=-7 da surat: -35+2=-33 ≠ 0"
+      ],
+      "maslahat": "x²+11x+28 = (x+4)(x+7)"
+    },
+    {
+      "id": 197,
+      "savol": "Funksiyaning hosilasini toping: y = 5 sin 4x",
+      "javob": "y' = 20 cos 4x",
+      "qisqa": "Murakkab sinus hosila",
+      "qadamlar": [
+        "y = 5·sin(u), u = 4x",
+        "(sin u)' = cos u, u' = 4",
+        "y' = 5·cos(4x)·4 = 20 cos 4x"
+      ],
+      "maslahat": "(sin ax)' = a·cos ax"
+    },
+    {
+      "id": 198,
+      "savol": "Funksiyaning o'sish, kamayish oraliqlarini va ekstremum nuqtalarini toping: y = (1/3)x³ + 3x² + 8x - 20",
+      "javob": "Max: x=-4, Min: x=-2",
+      "qisqa": "Hosila orqali ekstremum",
+      "qadamlar": [
+        "y' = x² + 6x + 8",
+        "y' = 0: (x+2)(x+4) = 0 → x=-2, x=-4",
+        "x < -4: y' > 0 (o'sish)",
+        "-4 < x < -2: y' < 0 (kamayish)",
+        "x > -2: y' > 0 (o'sish)",
+        "x=-4 maksimum, x=-2 minimum"
+      ],
+      "maslahat": "x²+6x+8 = (x+2)(x+4)"
+    },
+    {
+      "id": 199,
+      "savol": "Limitni hisoblang: lim(x→-3) (x²-4x-21)/(x²+2x-3)",
+      "javob": "5/2",
+      "qisqa": "0/0 — omillarga ajratish",
+      "qadamlar": [
+        "x=-3: surat: 9+12-21=0, maxraj: 9-6-3=0 → 0/0",
+        "Surat: x²-4x-21 = (x+3)(x-7)",
+        "Maxraj: x²+2x-3 = (x+3)(x-1)",
+        "Qisqartirish: (x-7)/(x-1)",
+        "x=-3: (-3-7)/(-3-1) = -10/(-4) = 5/2"
+      ],
+      "maslahat": "(x+3) umumiy omil"
+    },
+    {
+      "id": 200,
+      "savol": "A⊂E yozuv nimani anglatadi?",
+      "javob": "A to'plami E ning kichik to'plami ekanligini",
+      "qisqa": "Kichik to'plam ta'rifi",
+      "qadamlar": [
+        "A⊂E ma'nosi: A ning har bir elementi E da ham bor",
+        "Har x∈A uchun x∈E bo'lsa, A⊂E",
+        "Misol: A={1,2}, E={1,2,3} → A⊂E ✓",
+        "A=E bo'lsa: A⊆E (keng ma'no), A⊂E (tor ma'no)",
+        "Bo'sh to'plam: ∅⊂E — har qanday E uchun"
+      ],
+      "maslahat": "A⊂E: A ning barcha elementi E da; E A ni o'z ichiga oladi"
+    },
+    {
+      "id": 201,
+      "savol": "Funksiyaning uzilish nuqtalarini toping: f(x) = (3x+11)/(x²-6x-16)",
+      "javob": "x=8 va x=-2",
+      "qisqa": "Maxraj = 0 nuqtalar",
+      "qadamlar": [
+        "Maxraj: x²-6x-16 = 0",
+        "D = 36+64 = 100, √D = 10",
+        "x = (6±10)/2 → x₁=8, x₂=-2",
+        "x=8 da surat: 24+11=35 ≠ 0",
+        "x=-2 da surat: -6+11=5 ≠ 0"
+      ],
+      "maslahat": "x²-6x-16 = (x-8)(x+2)"
+    },
+    {
+      "id": 202,
+      "savol": "Funksiyaning hosilasini toping: y = -5x⁴ + 6/x + 2 tg x",
+      "javob": "y' = -20x³ - 6/x² + 2/cos²x",
+      "qisqa": "Yig'indi hosila qoidasi",
+      "qadamlar": [
+        "(-5x⁴)' = -20x³",
+        "(6/x)' = (6x⁻¹)' = -6x⁻² = -6/x²",
+        "(2 tg x)' = 2/cos²x",
+        "y' = -20x³ - 6/x² + 2/cos²x"
+      ],
+      "maslahat": "(6/x)' = -6/x² — manfiy belgini unutmang"
+    },
+    {
+      "id": 203,
+      "savol": "Limitni hisoblang: lim(x→1) (x²+2x-3)/(x²+4x-5)",
+      "javob": "2/3",
+      "qisqa": "0/0 — omillarga ajratish",
+      "qadamlar": [
+        "x=1: surat: 1+2-3=0, maxraj: 1+4-5=0 → 0/0",
+        "Surat: x²+2x-3 = (x-1)(x+3)",
+        "Maxraj: x²+4x-5 = (x-1)(x+5)",
+        "Qisqartirish: (x+3)/(x+5)",
+        "x=1: (1+3)/(1+5) = 4/6 = 2/3"
+      ],
+      "maslahat": "(x-1) umumiy omil"
+    },
+    {
+      "id": 204,
+      "savol": "Funksiyaning o'sish, kamayish oraliqlarini va ekstremum nuqtalarini toping: y = -(1/3)x³ + 5x² - 16x + 10",
+      "javob": "Min: x=2, Max: x=8",
+      "qisqa": "Hosila orqali ekstremum",
+      "qadamlar": [
+        "y' = -x² + 10x - 16",
+        "y' = 0: x² - 10x + 16 = 0",
+        "(x-2)(x-8) = 0 → x=2, x=8",
+        "x < 2: y' < 0 (kamayish)",
+        "2 < x < 8: y' > 0 (o'sish)",
+        "x > 8: y' < 0 (kamayish)",
+        "x=2 minimum, x=8 maksimum"
+      ],
+      "maslahat": "-(1/3)x³→-x², 5x²→10x, -16x→-16"
+    },
+    {
+      "id": 205,
+      "savol": "Qanday to'plamga A va B to'plamlarning birlashmasi deb ataladi?",
+      "javob": "A∪B = {x | x∈A yoki x∈B}",
+      "qisqa": "Birlashtirma ta'rifi",
+      "qadamlar": [
+        "A∪B — A da YOKI B da (yoki ikkalasida) bo'lgan elementlar",
+        "Shart: x∈A YOKI x∈B (kamida birida)",
+        "Misol: A={1,2,3}, B={3,4,5} → A∪B={1,2,3,4,5}",
+        "A∪∅ = A, A∪A = A",
+        "A∪B = B∪A (kommutativ)"
+      ],
+      "maslahat": "Birlashtirma: ikkala to'plamdagi barcha elementlar (takrorsiz)"
+    },
+    {
+      "id": 206,
+      "savol": "Ushbu funksiyaning aniqlanish sohasini toping: y = 1/√(3x+15)",
+      "javob": "x > -5",
+      "qisqa": "Maxradda ildiz — qat'iy musbat",
+      "qadamlar": [
+        "3x+15 > 0",
+        "3x > -15",
+        "x > -5",
+        "Aniqlanish sohasi: (-5, +∞)"
+      ],
+      "maslahat": "Maxradda 1/√: qat'iy musbat > 0"
+    },
+    {
+      "id": 207,
+      "savol": "y=f(x) funksiyaning x nuqtadagi hosilasining formulalardagi ta'rifini ko'rsating",
+      "javob": "f'(x) = lim(Δx→0) [f(x+Δx)-f(x)]/Δx",
+      "qisqa": "Hosila ta'rifi",
+      "qadamlar": [
+        "1. Δy = f(x+Δx) - f(x) — funksiya orttirmasi",
+        "2. Δy/Δx — o'rtacha o'zgarish tezligi",
+        "3. f'(x) = lim(Δx→0) Δy/Δx — momentli o'zgarish",
+        "Geometrik: urinma burchagi tg α = f'(x)",
+        "Fizik: momentli tezlik v = s'(t)"
+      ],
+      "maslahat": "Hosila = limitdagi nisbiy orttirma"
+    },
+    {
+      "id": 208,
+      "savol": "Funksiyaning o'sish, kamayish oraliqlarini va ekstremum nuqtalarini toping: y = (1/3)x³ + 4x² + 15x + 11",
+      "javob": "Max: x=-5, Min: x=-3",
+      "qisqa": "Hosila orqali ekstremum",
+      "qadamlar": [
+        "y' = x² + 8x + 15",
+        "y' = 0: (x+3)(x+5) = 0 → x=-3, x=-5",
+        "x < -5: y' > 0 (o'sish)",
+        "-5 < x < -3: y' < 0 (kamayish)",
+        "x > -3: y' > 0 (o'sish)",
+        "x=-5 maksimum, x=-3 minimum"
+      ],
+      "maslahat": "x²+8x+15 = (x+3)(x+5)"
+    },
+    {
+      "id": 209,
+      "savol": "Funksiyaning qavariqlik va botiqlik oraliqlarini toping: y = -x³ + 3x² - 7x + 5",
+      "javob": "Botiq: x < 1, Qavariq: x > 1",
+      "qisqa": "Ikkinchi hosila",
+      "qadamlar": [
+        "y' = -3x² + 6x - 7",
+        "y'' = -6x + 6",
+        "y'' = 0: x = 1",
+        "x < 1: y'' > 0 → botiq",
+        "x > 1: y'' < 0 → qavariq"
+      ],
+      "maslahat": "y'' = -6x + 6 = 0 → x = 1"
+    },
+    {
+      "id": 210,
+      "savol": "D to'plamda aniqlangan y=f(x) funksiya qachon davriy deyiladi?",
+      "javob": "f(x+T) = f(x) bo'lgan T > 0 mavjud bo'lsa",
+      "qisqa": "Davriy funksiya ta'rifi",
+      "qadamlar": [
+        "Shunday T > 0 son mavjud bo'lishi kerak",
+        "Barcha x∈D uchun f(x+T) = f(x)",
+        "T — davr (period) deyiladi",
+        "Misol: sin x davri T = 2π",
+        "Misol: cos x davri T = 2π, tg x davri T = π",
+        "Misol: sin(2x) davri T = π"
+      ],
+      "maslahat": "sin va cos uchun T=2π, tg va ctg uchun T=π"
+    },
+    {
+      "id": 211,
+      "savol": "Funksiyaning qavariqlik va botiqlik oraliqlarini toping: y = x³ - 6x² + 5x + 1",
+      "javob": "Qavariq: x < 2, Botiq: x > 2",
+      "qisqa": "Ikkinchi hosila",
+      "qadamlar": [
+        "y' = 3x² - 12x + 5",
+        "y'' = 6x - 12",
+        "y'' = 0: x = 2",
+        "x < 2: y'' < 0 → qavariq",
+        "x > 2: y'' > 0 → botiq"
+      ],
+      "maslahat": "y'' = 6x - 12 = 0 → x = 2"
+    },
+    {
+      "id": 212,
+      "savol": "Limitni hisoblang: lim(x→-5) (x²-7x+10)/(x²-2x-15)",
+      "javob": "9/8",
+      "qisqa": "0/0 — omillarga ajratish",
+      "qadamlar": [
+        "x=-5: surat: 25+35+10=70≠0",
+        "Surat(-5)=25+35+10=70, maxraj(-5)=25+10-15=20",
+        "Noaniqlik yo'q: 70/20 = 7/2",
+        "Agar boshqa x uchun: omillarga ajrating"
+      ],
+      "maslahat": "Avval x ni qo'yib tekshiring"
+    },
+    {
+      "id": 213,
+      "savol": "x∈E yozuv nimani anglatadi?",
+      "javob": "x elementi E to'plamga tegishli ekanligini",
+      "qisqa": "Elementning tegishliligi",
+      "qadamlar": [
+        "x∈E — x elementi E to'plamga kiradi",
+        "x∉E — x elementi E to'plamga kirmaydi",
+        "Misol: 2∈{1,2,3} ✓",
+        "Misol: 5∉{1,2,3} ✓",
+        "To'plamni belgilash: {x | x shartni qanoatlantiradi}"
+      ],
+      "maslahat": "∈ = tegishli, ∉ = tegishli emas"
+    },
+    {
+      "id": 214,
+      "savol": "Funksiyaning hosilasini toping: y = x ln x",
+      "javob": "y' = ln x + 1",
+      "qisqa": "Ko'paytma hosila qoidasi",
+      "qadamlar": [
+        "(u·v)' = u'v + uv'",
+        "u = x → u' = 1",
+        "v = ln x → v' = 1/x",
+        "y' = 1·ln x + x·(1/x)",
+        "y' = ln x + 1"
+      ],
+      "maslahat": "x·(1/x) = 1 — qisqaradi"
+    },
+    {
+      "id": 215,
+      "savol": "Funksiyaning qavariqlik va botiqlik oraliqlarini toping: y = x³ - 9x² - 7x + 3",
+      "javob": "Qavariq: x < 3, Botiq: x > 3",
+      "qisqa": "Ikkinchi hosila",
+      "qadamlar": [
+        "y' = 3x² - 18x - 7",
+        "y'' = 6x - 18",
+        "y'' = 0: x = 3",
+        "x < 3: y'' < 0 → qavariq",
+        "x > 3: y'' > 0 → botiq"
+      ],
+      "maslahat": "y'' = 6x - 18 = 0 → x = 3"
+    },
+    {
+      "id": 216,
+      "savol": "Ushbu funksiyaning aniqlanish sohasini toping: y = √(3x-21)",
+      "javob": "x ≥ 7",
+      "qisqa": "Juft ildiz — ichida ≥ 0",
+      "qadamlar": [
+        "√ uchun: 3x-21 ≥ 0",
+        "3x ≥ 21",
+        "x ≥ 7",
+        "Aniqlanish sohasi: [7, +∞)"
+      ],
+      "maslahat": "√ (juft daraja): ichida ≥ 0 (tenglik ham mumkin)"
+    },
+    {
+      "id": 217,
+      "savol": "Funksiyalar qanday usullar bilan beriladi?",
+      "javob": "Analitik (formula), jadval, grafik va og'zaki usullar",
+      "qisqa": "Funksiyani berish usullari",
+      "qadamlar": [
+        "1. Analitik: y = f(x) formula bilan (y=x², y=sin x)",
+        "2. Jadval: x va y qiymatlari jadvali",
+        "3. Grafik: koordinata tekisligida egri chiziq",
+        "4. Og'zaki (tavsifiy): so'z bilan ifodalash",
+        "Amalda ko'p analitik usul ishlatiladi"
+      ],
+      "maslahat": "4 usul: formula, jadval, grafik, og'zaki"
+    },
+    {
+      "id": 218,
+      "savol": "Funksiyaning qavariqlik va botiqlik oraliqlarini toping: y = -x³ + 9x² + 5x + 4",
+      "javob": "Botiq: x < 3, Qavariq: x > 3",
+      "qisqa": "Ikkinchi hosila",
+      "qadamlar": [
+        "y' = -3x² + 18x + 5",
+        "y'' = -6x + 18",
+        "y'' = 0: x = 3",
+        "x < 3: y'' > 0 → botiq",
+        "x > 3: y'' < 0 → qavariq"
+      ],
+      "maslahat": "y'' = -6x + 18 = 0 → x = 3"
+    },
+    {
+      "id": 219,
+      "savol": "Qachon A to'plam B to'plamning qism to'plami deyiladi?",
+      "javob": "A⊆B: A ning har bir elementi B da bo'lsa",
+      "qisqa": "Kichik to'plam ta'rifi",
+      "qadamlar": [
+        "A⊆B sharti: har x∈A uchun x∈B",
+        "Ya'ni: A da bo'lgan hamma B da ham bor",
+        "Misol: A={2,4} ⊆ B={1,2,3,4,5}",
+        "Har to'plam o'ziga kichik: A⊆A",
+        "Bo'sh to'plam: ∅⊆B har qanday B uchun"
+      ],
+      "maslahat": "A⊆B: A ni B qamrab oladi"
+    },
+    {
+      "id": 220,
+      "savol": "Limitni hisoblang: lim(x→6) (-6x+8)/(2x+9)",
+      "javob": "-28/21 = -4/3",
+      "qisqa": "To'g'ridan to'g'ri qo'yish",
+      "qadamlar": [
+        "x=6 da maxraj: 2(6)+9 = 21 ≠ 0",
+        "Surat: -6(6)+8 = -36+8 = -28",
+        "Limit = -28/21 = -4/3"
+      ],
+      "maslahat": "Maxraj ≠ 0 → to'g'ridan qiymat qo'ying"
+    },
+    {
+      "id": 221,
+      "savol": "Ushbu funksiyaning aniqlanish sohasini toping: y = 1/√(-5x-25)",
+      "javob": "x < -5",
+      "qisqa": "Maxradda ildiz — qat'iy musbat",
+      "qadamlar": [
+        "-5x-25 > 0",
+        "-5x > 25",
+        "x < -5 (ishorа o'zgaradi)",
+        "Aniqlanish sohasi: (-∞, -5)"
+      ],
+      "maslahat": "-5x > 25 → x < -5 (manfiy songa bo'linadi)"
+    },
+    {
+      "id": 222,
+      "savol": "Limitni hisoblang: lim(x→1) (x²+4x-5)/(x²+2x-3)",
+      "javob": "3/2",
+      "qisqa": "0/0 — omillarga ajratish",
+      "qadamlar": [
+        "x=1: surat: 1+4-5=0, maxraj: 1+2-3=0 → 0/0",
+        "Surat: x²+4x-5 = (x-1)(x+5)",
+        "Maxraj: x²+2x-3 = (x-1)(x+3)",
+        "Qisqartirish: (x+5)/(x+3)",
+        "x=1: 6/4 = 3/2"
+      ],
+      "maslahat": "(x-1) umumiy omil"
+    },
+    {
+      "id": 223,
+      "savol": "Agar F₁(x) va F₂(x) — funksiyalar (a;b) oraliqda bitta f(x) funksiyaning boshlang'ichlari bo'lsa...",
+      "javob": "F₁(x) - F₂(x) = C = const",
+      "qisqa": "Boshlang'ichlarning farqi o'zgarmas",
+      "qadamlar": [
+        "Agar F₁'(x) = f(x) va F₂'(x) = f(x) bo'lsa",
+        "(F₁ - F₂)' = F₁' - F₂' = f(x) - f(x) = 0",
+        "Hosilasi 0 bo'lgan funksiya — o'zgarmas",
+        "Demak: F₁(x) - F₂(x) = C",
+        "Bu boshlang'ichlar to'plami: F(x) + C"
+      ],
+      "maslahat": "Bir funksiyaning barcha boshlang'ichlari bir-biridan C = const ga farq qiladi"
+    },
+    {
+      "id": 224,
+      "savol": "Aniq integralni hisoblang: ∫₁³ 3x² dx",
+      "javob": "26",
+      "qisqa": "Newton-Leybnits formulasi",
+      "qadamlar": [
+        "F(x) = 3x³/3 = x³",
+        "F(3) = 27",
+        "F(1) = 1",
+        "∫₁³ 3x² dx = 27 - 1 = 26"
+      ],
+      "maslahat": "∫x² dx = x³/3, ×3 → x³"
+    },
+    {
+      "id": 225,
+      "savol": "Qachon a soni {xₙ} ketma-ketlikning limiti deyiladi?",
+      "javob": "Har ε>0 uchun N mavjud: n>N bo'lganda |xₙ-a|<ε",
+      "qisqa": "Limit ta'rifi (epsilon-delta)",
+      "qadamlar": [
+        "lim(n→∞) xₙ = a ta'rifi:",
+        "Har ε > 0 uchun shunday N(ε) mavjud:",
+        "n > N bo'lgan barcha n uchun |xₙ - a| < ε",
+        "Ya'ni: xₙ a ga istalgancha yaqinlashadi",
+        "Geometrik: a-(ε,ε) tasmasida qoladi"
+      ],
+      "maslahat": "Limit = ketma-ketlik yaqinlashadigan son"
+    },
+    {
+      "id": 226,
+      "savol": "Funksiyaning hosilasini toping: y = 5ˣ",
+      "javob": "y' = 5ˣ · ln 5",
+      "qisqa": "Eksponensial funksiya hosila",
+      "qadamlar": [
+        "(aˣ)' = aˣ · ln a formulasi",
+        "y = 5ˣ",
+        "y' = 5ˣ · ln 5"
+      ],
+      "maslahat": "(aˣ)' = aˣ·ln a — e bo'lmagan asos uchun ln qo'shiladi"
+    },
+    {
+      "id": 227,
+      "savol": "Davriy funksiyalar qatorini ko'rsating",
+      "javob": "sin x, cos x, tg x, ctg x — barchasi davriy",
+      "qisqa": "Davriy funksiyalar misollar",
+      "qadamlar": [
+        "sin x: T = 2π (f(x+2π)=sin x)",
+        "cos x: T = 2π (f(x+2π)=cos x)",
+        "tg x: T = π (f(x+π)=tg x)",
+        "ctg x: T = π (f(x+π)=ctg x)",
+        "sin(2x): T = π, cos(3x): T = 2π/3"
+      ],
+      "maslahat": "sin(ax): T = 2π/a, tg(ax): T = π/a"
+    },
+    {
+      "id": 228,
+      "savol": "Limitni hisoblang: lim(x→2) (x²-10x+16)/(x²+2x-10) [yoki boshqa variant]",
+      "javob": "Tekshirish kerak",
+      "qisqa": "To'g'ri variantni aniqlash",
+      "qadamlar": [
+        "x=2 da surat: 4-20+16=0",
+        "x=2 da maxraj: 4+4-10=-2 ≠ 0",
+        "Noaniqlik yo'q: 0/(-2) = 0",
+        "Agar maxraj ham 0 bo'lsa → omillarga ajrating"
+      ],
+      "maslahat": "Avval x ni qo'yib tekshiring: 0/0 noaniqlikmi?"
+    },
+    {
+      "id": 229,
+      "savol": "Funksiyaning uzilish nuqtalarini toping: f(x) = (8x+3)/(x²+3x-10)",
+      "javob": "x=2 va x=-5",
+      "qisqa": "Maxraj = 0 nuqtalar",
+      "qadamlar": [
+        "Maxraj: x²+3x-10 = 0",
+        "D = 9+40 = 49, √D = 7",
+        "x = (-3±7)/2 → x₁=2, x₂=-5",
+        "x=2 da surat: 16+3=19 ≠ 0",
+        "x=-5 da surat: -40+3=-37 ≠ 0"
+      ],
+      "maslahat": "x²+3x-10 = (x-2)(x+5)"
+    },
+    {
+      "id": 230,
+      "savol": "Funksiyaning nuqtadagi uzluksizligi ta'rifini ko'rsating",
+      "javob": "lim(x→x₀) f(x) = f(x₀) bo'lsa uzluksiz",
+      "qisqa": "Uzluksizlik ta'rifi",
+      "qadamlar": [
+        "f(x) x₀ nuqtada uzluksiz bo'lishi uchun:",
+        "1) f(x₀) aniqlanishi kerak",
+        "2) lim(x→x₀) f(x) mavjud bo'lishi kerak",
+        "3) lim(x→x₀) f(x) = f(x₀) bo'lishi kerak",
+        "Uchala shart birgalikda bajarilsa — uzluksiz"
+      ],
+      "maslahat": "3 shart: aniqlanish + limit + limit = qiymat"
+    },
+    {
+      "id": 231,
+      "savol": "Funksiyaning uzilish nuqtalarini toping: f(x) = (x+9)/(x²-7x+10)",
+      "javob": "x=2 va x=5",
+      "qisqa": "Maxraj = 0 nuqtalar",
+      "qadamlar": [
+        "Maxraj: x²-7x+10 = 0",
+        "D = 49-40 = 9, √D = 3",
+        "x = (7±3)/2 → x₁=5, x₂=2",
+        "x=2 da surat: 2+9=11 ≠ 0",
+        "x=5 da surat: 5+9=14 ≠ 0"
+      ],
+      "maslahat": "x²-7x+10 = (x-2)(x-5)"
+    },
+    {
+      "id": 232,
+      "savol": "Limitni hisoblang: lim(x→2) (3x+5)/(5x-4)",
+      "javob": "11/6",
+      "qisqa": "To'g'ridan to'g'ri qo'yish",
+      "qadamlar": [
+        "x=2 da maxraj: 5(2)-4 = 6 ≠ 0",
+        "Surat: 3(2)+5 = 11",
+        "Limit = 11/6"
+      ],
+      "maslahat": "Chiziqli funksiyalar hamma joyda uzluksiz"
+    },
+    {
+      "id": 233,
+      "savol": "Funksiyaning hosilasini toping: y = x³ + 5x² - 6x + 5 + ln x",
+      "javob": "y' = 3x² + 10x - 6 + 1/x",
+      "qisqa": "Yig'indi hosila qoidasi",
+      "qadamlar": [
+        "(x³)' = 3x²",
+        "(5x²)' = 10x",
+        "(-6x)' = -6",
+        "(5)' = 0",
+        "(ln x)' = 1/x",
+        "y' = 3x² + 10x - 6 + 1/x"
+      ],
+      "maslahat": "Har hadni alohida differensiallaymiz"
+    },
+    {
+      "id": 234,
+      "savol": "Funksiyaning qavariqlik va botiqlik oraliqlarini toping: y = x³ + 6x² - 2x + 7",
+      "javob": "Qavariq: x < -2, Botiq: x > -2",
+      "qisqa": "Ikkinchi hosila",
+      "qadamlar": [
+        "y' = 3x² + 12x - 2",
+        "y'' = 6x + 12",
+        "y'' = 0: 6x + 12 = 0 → x = -2",
+        "x < -2: y'' = 6(-3)+12 = -6 < 0 → qavariq",
+        "x > -2: y'' = 6(-1)+12 = 6 > 0 → botiq",
+        "x=-2 burilish nuqtasi"
+      ],
+      "maslahat": "y'' = 6x + 12 = 0 → x = -2"
+    },
+    {
+      "id": 235,
+      "savol": "Funksiyaning o'sish, kamayish oraliqlarini va ekstremum nuqtalarini toping: y = (1/3)x³ + 4x² + 12x + 6",
+      "javob": "Max: x=-6, Min: x=-2",
+      "qisqa": "Hosila orqali ekstremum",
+      "qadamlar": [
+        "y' = x² + 8x + 12",
+        "y' = 0: (x+2)(x+6) = 0 → x=-2, x=-6",
+        "x < -6: y' > 0 (o'sish)",
+        "-6 < x < -2: y' < 0 (kamayish)",
+        "x > -2: y' > 0 (o'sish)",
+        "x=-6 maksimum, x=-2 minimum"
+      ],
+      "maslahat": "x²+8x+12 = (x+2)(x+6)"
+    },
+    {
+      "id": 236,
+      "savol": "Differensiallanuvchi funksiya o'sishining zaruriy shartini toping",
+      "javob": "f'(x) ≥ 0 oraliqda",
+      "qisqa": "O'sish sharti",
+      "qadamlar": [
+        "f(x) (a;b) da o'suvchi bo'lishi uchun:",
+        "Zaruriy shart: f'(x) ≥ 0 barcha x∈(a;b) uchun",
+        "Yetarli shart: f'(x) > 0 barcha x∈(a;b) uchun",
+        "f'(x) = 0 bo'lgan alohida nuqtalar bo'lishi mumkin",
+        "Misol: f(x)=x³ o'suvchi, f'=3x²≥0 (x=0 da nol)"
+      ],
+      "maslahat": "O'sish: f'≥0 (zaruriy), f'>0 (yetarli)"
+    },
+    {
+      "id": 237,
+      "savol": "Funksiyaning uzilish nuqtalarini toping va ularning turini aniqlang: y = (x+3)/(x-7)",
+      "javob": "x=7 — 2-tur uzilish",
+      "qisqa": "Ratsional funksiya uzilishi",
+      "qadamlar": [
+        "Maxraj nol: x-7=0 → x=7",
+        "x=7 da surat: 7+3=10 ≠ 0",
+        "lim(x→7⁺) = +∞, lim(x→7⁻) = -∞",
+        "Limitlar cheksiz → 2-tur uzilish",
+        "Grafik: vertikal asimptota x=7"
+      ],
+      "maslahat": "Surat≠0, maxraj=0 → 2-tur uzilish (vertikal asimptota)"
+    },
+    {
+      "id": 238,
+      "savol": "Funksiyaning uzilish nuqtalarini toping: f(x) = (-9x+2)/(x²+6x+5)",
+      "javob": "x=-1 va x=-5",
+      "qisqa": "Maxraj = 0 nuqtalar",
+      "qadamlar": [
+        "Maxraj: x²+6x+5 = 0",
+        "D = 36-20 = 16, √D = 4",
+        "x = (-6±4)/2 → x₁=-1, x₂=-5",
+        "x=-1 da surat: 9+2=11 ≠ 0 → uzilish",
+        "x=-5 da surat: 45+2=47 ≠ 0 → uzilish"
+      ],
+      "maslahat": "x²+6x+5 = (x+1)(x+5)"
+    },
+    {
+      "id": 239,
+      "savol": "Funksiyaning hosilasini toping: y = 2x⁵ - 3/x² + 2√x",
+      "javob": "y' = 10x⁴ + 6/x³ + 1/√x",
+      "qisqa": "Yig'indi hosila qoidasi",
+      "qadamlar": [
+        "(2x⁵)' = 10x⁴",
+        "(-3/x²)' = (-3x⁻²)' = 6x⁻³ = 6/x³",
+        "(2√x)' = 2·(1/(2√x)) = 1/√x",
+        "y' = 10x⁴ + 6/x³ + 1/√x"
+      ],
+      "maslahat": "(-3/x²) = -3x⁻² → hosila: 6x⁻³ = 6/x³"
+    },
+    {
+      "id": 240,
+      "savol": "Funksiyaning nuqtadagi limitini ta'rifini ko'rsating",
+      "javob": "lim(x→x₀) f(x) = A: har ε>0 uchun δ>0 mavjud, 0<|x-x₀|<δ → |f(x)-A|<ε",
+      "qisqa": "Limit ta'rifi (Koshi ta'rifi)",
+      "qadamlar": [
+        "lim(x→x₀) f(x) = A ta'rifi:",
+        "Har ε > 0 uchun shunday δ > 0 mavjud:",
+        "0 < |x - x₀| < δ bo'lganda",
+        "u holda |f(x) - A| < ε bo'ladi",
+        "Ya'ni: x, x₀ ga δ-yaqin bo'lsa, f(x) A ga ε-yaqin",
+        "Geometrik: (A-ε, A+ε) tasmasida qoladi"
+      ],
+      "maslahat": "Limit: x yaqinlashganda f(x) A ga istalgancha yaqinlashadi"
     }
   ]
 }
